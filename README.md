@@ -54,28 +54,18 @@ pip install -r requirements.txt
 
 ### 3. GitHub Repository Setup
 ```bash
-# Create a new repository on GitHub named 'mlops-artifact-pipeline'
-git init
-git add .
-git commit -m "Initial commit with README"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/mlops-artifact-pipeline.git
-git push -u origin main
+# Repository already created at: https://github.com/kiranbeethoju/mlops-a2
+# The repository has been set up with the correct branching strategy:
+# main → classification → test → inference
 ```
 
-### 4. Create Branches (Follow Assignment Order)
+### 4. Branch Status
 ```bash
-# Phase 1: Training Pipeline
-git checkout -b classification
-git push -u origin classification
-
-# Phase 2: Testing
-git checkout -b test
-git push -u origin test
-
-# Phase 3: Inference
-git checkout -b inference
-git push -u origin inference
+# All branches have been created and pushed following the assignment requirements:
+# ✅ main: Initial repository with README only
+# ✅ classification: Phase 1 - Training pipeline complete
+# ✅ test: Phase 2 - Testing pipeline complete  
+# ✅ inference: Phase 3 - Multi-job inference pipeline complete
 ```
 
 ## Usage
@@ -184,7 +174,7 @@ The test suite validates:
 
 ## Assignment Compliance
 
-✅ **Repository Setup**: Public GitHub repository named `mlops-artifact-pipeline`
+✅ **Repository Setup**: Public GitHub repository at https://github.com/kiranbeethoju/mlops-a2
 ✅ **Project Structure**: All required directories and files implemented
 ✅ **Branching Strategy**: Linear branching (main → classification → test → inference)
 ✅ **Phase 1**: Training pipeline with config-driven hyperparameters
